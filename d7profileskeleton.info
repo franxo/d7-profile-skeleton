@@ -1,0 +1,33 @@
+name = "D7 profile skeleton"
+description = "D7 profile skeleton"
+core = 7.x
+distribution_name = d7profileskeleton
+
+; Core dependencies.
+dependencies[] = block
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = field_ui
+dependencies[] = file
+
+; Contrib modules.
+; dependencies[] = ctools
+; dependencies[] = features
+; dependencies[] = views
+
+; Features.
+; dependencies[] = d7profileskeleton_field_base
+; dependencies[] = d7profileskeleton_instance
+; dependencies[] = d7profileskeleton_filter
+; dependencies[] = d7profileskeleton_menu_custom
+; dependencies[] = d7profileskeleton_node
+; dependencies[] = d7profileskeleton_user_permission
+; dependencies[] = d7profileskeleton_user_role
